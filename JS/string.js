@@ -2,9 +2,9 @@ const path = "/users/download/index.html"
 
 const isHtml = function(x){
     if (path.slice(path.length-5, path.length) == ".html") {
-        return "true"
+        return true
     } else {
-        return "false"
+        return false
     }
 }
 
