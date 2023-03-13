@@ -4,7 +4,7 @@ let targetVowels = "";
 
 const getVowels = function(variable) {
     for (var i = 0; i < string.length; i++) {
-        if (vowels.includes(string[i]) == true) {
+        if (vowels.includes(string[i])) {
             targetVowels += string[i]
         }
     }
