@@ -3,10 +3,9 @@ const workers = [
     {"name":"Mike","salary":1300},
     {"name":"Linda","salary":1500}];
 
-arrResult = []
-
 let getWorthyWorkers = function(array) {
     //принимаем на вход массив, прогоняем объекты по salary, и если они больше 1000, выводим name. 
+    arrResult = []
 
     for (var i = 0; i<workers.length;i++) {
 
