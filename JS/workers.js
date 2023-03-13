@@ -5,7 +5,7 @@ const workers = [
 
 let getWorthyWorkers = function(array) {
     //принимаем на вход массив, прогоняем объекты по salary, и если они больше 1000, выводим name. 
-    arrResult = []
+    let arrResult = [];
 
     for (var i = 0; i<workers.length;i++) {
 
